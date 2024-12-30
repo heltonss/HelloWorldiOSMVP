@@ -30,24 +30,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CC6A995A2D230EFA00FAF433 /* Exceptions for "HelloWorldGrettings" folder in "HelloWorldGrettings" target */ = {
+		CC6A99992D23119D00FAF433 /* Exceptions for "HelloWorldGrettings" folder in "HelloWorldGrettings" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				HelloWorldGrettings.xcdatamodeld,
 				Info.plist,
 			);
 			target = CC6A992E2D230EF900FAF433 /* HelloWorldGrettings */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CC6A99312D230EF900FAF433 /* HelloWorldGrettings */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CC6A995A2D230EFA00FAF433 /* Exceptions for "HelloWorldGrettings" folder in "HelloWorldGrettings" target */,
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		CC6A999A2D23119D00FAF433 /* Exceptions for "HelloWorldGrettings" folder in "Compile Sources" phase from "HelloWorldGrettings" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = CC6A992B2D230EF900FAF433 /* Sources */;
+			membershipExceptions = (
+				HelloWorldGrettings.xcdatamodeld,
 			);
-			path = HelloWorldGrettings;
-			sourceTree = "<group>";
 		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		CC6A994B2D230EFA00FAF433 /* HelloWorldGrettingsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HelloWorldGrettingsTests;
@@ -56,6 +59,15 @@
 		CC6A99552D230EFA00FAF433 /* HelloWorldGrettingsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HelloWorldGrettingsUITests;
+			sourceTree = "<group>";
+		};
+		CC6A99912D23119D00FAF433 /* HelloWorldGrettings */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC6A99992D23119D00FAF433 /* Exceptions for "HelloWorldGrettings" folder in "HelloWorldGrettings" target */,
+				CC6A999A2D23119D00FAF433 /* Exceptions for "HelloWorldGrettings" folder in "Compile Sources" phase from "HelloWorldGrettings" target */,
+			);
+			path = HelloWorldGrettings;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +100,7 @@
 		CC6A99262D230EF900FAF433 = {
 			isa = PBXGroup;
 			children = (
-				CC6A99312D230EF900FAF433 /* HelloWorldGrettings */,
+				CC6A99912D23119D00FAF433 /* HelloWorldGrettings */,
 				CC6A994B2D230EFA00FAF433 /* HelloWorldGrettingsTests */,
 				CC6A99552D230EFA00FAF433 /* HelloWorldGrettingsUITests */,
 				CC6A99302D230EF900FAF433 /* Products */,
@@ -121,7 +133,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CC6A99312D230EF900FAF433 /* HelloWorldGrettings */,
+				CC6A99912D23119D00FAF433 /* HelloWorldGrettings */,
 			);
 			name = HelloWorldGrettings;
 			packageProductDependencies = (
